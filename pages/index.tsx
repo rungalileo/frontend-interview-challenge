@@ -55,10 +55,7 @@ const Home: NextPage = () => {
 
       <Group position="apart" my="xl">
         <TextInput
-          // onChange={({ target }) => console.log(target.value)}
-          onChange={({ target }) =>
-            push({ key: "searchTerm", value: target.value })
-          }
+          onChange={({ target }) => console.log(target.value)}
           placeholder="Search comments for this post"
           type="search"
           sx={{
