@@ -1,3 +1,11 @@
+# Galileo Coding Challenge
+
+In this coding challenge, you will be asked to do three things -
+
+1. Debug a query that is not updating when it should
+2. Persist information in a way that's sharable between users
+3. Evaluate and implement a solution for creating an infinite scrolling table that could have millions of rows
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
