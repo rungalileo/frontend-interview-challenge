@@ -70,8 +70,6 @@ const Home: NextPage = () => {
           <Button onClick={() => scrollPosts("next")}>Next Post</Button>
         </Box>
       </Group>
-
-      <Table />
     </Container>
   );
 };
