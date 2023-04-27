@@ -1,6 +1,6 @@
 # Galileo Coding Challenge
 
-In this coding challenge, you will be asked to do three things -
+In this coding challenge, you will be asked to do these things -
 
 1. Debug a query that is not updating when it should
 2. Persist information in a way that's sharable between users
