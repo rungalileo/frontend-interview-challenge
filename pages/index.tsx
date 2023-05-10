@@ -9,19 +9,33 @@ import {
 } from "@mantine/core";
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import Table from "../components/table";
 import { usePosts } from "../queries/use-posts";
+import { useEffect, useState } from "react";
+import { useComments } from "../queries/use-comments";
+import Table from "../components/table";
 
 interface PushArgs {
   key: "postId" | "searchTerm";
   value: string | number;
 }
 
+interface Comment {
+  postId: number;
+  body: string;
+}
+
 const Home: NextPage = () => {
   const router = useRouter();
+  const [filteredComments, setFilteredComments] = useState([]);
 
   // RQ post fetching hook
   const post = usePosts();
+  const comments = useComments();
+  const columns = Object.keys(comments?.data?.[0]) || [];
+
+  let postComments = comments.data.filter(
+    (comment: Comment) => comment.postId === post.data.id
+  );
 
   // Helper to make working with router.push easier
   const push = ({ key, value }: PushArgs) => {
@@ -32,6 +46,22 @@ const Home: NextPage = () => {
         [key]: value,
       },
     });
+  };
+
+  useEffect(() => {
+    if (!router.query.postId || router.query.postId === "0") {
+      push({ key: "postId", value: 1 });
+    }
+  }, [router.query.postId]);
+
+  console.log(comments);
+
+  const filterComments = (searchTerm: string) => {
+    const newComments = postComments.filter((comment: Comment) =>
+      comment.body.includes(searchTerm)
+    );
+
+    setFilteredComments(newComments);
   };
 
   // Handler to navigate between posts
@@ -55,7 +85,7 @@ const Home: NextPage = () => {
 
       <Group position="apart" my="xl">
         <TextInput
-          onChange={({ target }) => console.log(target.value)}
+          onChange={({ target }) => filterComments(target.value)}
           placeholder="Search comments for this post"
           type="search"
           sx={{
@@ -70,6 +100,7 @@ const Home: NextPage = () => {
           <Button onClick={() => scrollPosts("next")}>Next Post</Button>
         </Box>
       </Group>
+      <Table data={filteredComments} columns={columns} />
     </Container>
   );
 };

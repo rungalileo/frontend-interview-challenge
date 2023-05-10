@@ -6,7 +6,7 @@ export const usePosts = () => {
   const { postId } = router?.query || {};
 
   const response = useQuery(
-    ["POSTS"],
+    [`POSTS-${postId}`],
     async () => {
       const res = await fetch(
         `https://jsonplaceholder.typicode.com/posts/${postId}`
