@@ -1,0 +1,357 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Spaghetti Bolognese",
+      "ingredients": [
+        { "id": 101, "name": "Spaghetti" },
+        { "id": 102, "name": "Ground Beef" },
+        { "id": 103, "name": "Tomato Sauce" },
+        { "id": 104, "name": "Onion" },
+        { "id": 105, "name": "Garlic" },
+        { "id": 106, "name": "Olive Oil" },
+        { "id": 107, "name": "Parmesan Cheese" }
+      ],
+      "instructions": [
+        "Cook spaghetti according to package instructions.",
+        "In a large pan, heat olive oil over medium heat.",
+        "Add onion and garlic, cook until softened.",
+        "Add ground beef, cook until browned.",
+        "Pour in tomato sauce and simmer for 15 minutes.",
+        "Serve sauce over spaghetti and garnish with Parmesan cheese."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Chicken Caesar Salad",
+      "ingredients": [
+        { "id": 201, "name": "Romaine Lettuce" },
+        { "id": 202, "name": "Chicken Breast" },
+        { "id": 203, "name": "Caesar Dressing" },
+        { "id": 204, "name": "Croutons" },
+        { "id": 205, "name": "Parmesan Cheese" }
+      ],
+      "instructions": [
+        "Grill or pan-fry the chicken breast until fully cooked, then slice it.",
+        "Chop the romaine lettuce and place it in a large bowl.",
+        "Add sliced chicken, croutons, and Parmesan cheese.",
+        "Drizzle Caesar dressing over the salad and toss to combine."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Avocado Toast",
+      "ingredients": [
+        { "id": 301, "name": "Bread" },
+        { "id": 302, "name": "Avocado" },
+        { "id": 303, "name": "Salt" },
+        { "id": 304, "name": "Pepper" },
+        { "id": 305, "name": "Olive Oil" },
+        { "id": 306, "name": "Red Pepper Flakes" }
+      ],
+      "instructions": [
+        "Toast the bread to your desired crispiness.",
+        "Mash the avocado in a bowl and season with salt and pepper.",
+        "Spread the mashed avocado over the toast.",
+        "Drizzle with olive oil and sprinkle red pepper flakes on top."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pancakes",
+      "ingredients": [
+        { "id": 401, "name": "Flour" },
+        { "id": 402, "name": "Milk" },
+        { "id": 403, "name": "Egg" },
+        { "id": 404, "name": "Baking Powder" },
+        { "id": 405, "name": "Sugar" },
+        { "id": 406, "name": "Butter" }
+      ],
+      "instructions": [
+        "In a bowl, mix flour, baking powder, and sugar.",
+        "Add milk and egg, then whisk until smooth.",
+        "Heat a skillet over medium heat and add a small amount of butter.",
+        "Pour batter onto the skillet and cook until bubbles form on the surface.",
+        "Flip and cook the other side until golden brown.",
+        "Serve warm with syrup or your favorite toppings."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Grilled Cheese Sandwich",
+      "ingredients": [
+        { "id": 501, "name": "Bread" },
+        { "id": 502, "name": "Cheese" },
+        { "id": 503, "name": "Butter" }
+      ],
+      "instructions": [
+        "Butter one side of each bread slice.",
+        "Place a slice of cheese between two bread slices with buttered sides facing out.",
+        "Heat a skillet over medium heat and cook the sandwich until golden brown on both sides."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Omelette",
+      "ingredients": [
+        { "id": 601, "name": "Eggs" },
+        { "id": 602, "name": "Salt" },
+        { "id": 603, "name": "Pepper" },
+        { "id": 604, "name": "Butter" },
+        { "id": 605, "name": "Cheese" },
+        { "id": 606, "name": "Ham" }
+      ],
+      "instructions": [
+        "Whisk eggs with salt and pepper.",
+        "Melt butter in a skillet over medium heat.",
+        "Pour eggs into the skillet and cook until set, then add cheese and ham.",
+        "Fold the omelette and serve warm."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Chocolate Chip Cookies",
+      "ingredients": [
+        { "id": 701, "name": "Flour" },
+        { "id": 702, "name": "Butter" },
+        { "id": 703, "name": "Sugar" },
+        { "id": 704, "name": "Brown Sugar" },
+        { "id": 705, "name": "Egg" },
+        { "id": 706, "name": "Vanilla Extract" },
+        { "id": 707, "name": "Chocolate Chips" }
+      ],
+      "instructions": [
+        "Preheat oven to 350°F (175°C).",
+        "Cream butter and sugars together, then add egg and vanilla.",
+        "Mix in flour and chocolate chips.",
+        "Drop spoonfuls of dough onto a baking sheet.",
+        "Bake for 10-12 minutes until golden brown."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Caprese Salad",
+      "ingredients": [
+        { "id": 801, "name": "Tomatoes" },
+        { "id": 802, "name": "Mozzarella Cheese" },
+        { "id": 803, "name": "Basil" },
+        { "id": 804, "name": "Olive Oil" },
+        { "id": 805, "name": "Balsamic Vinegar" },
+        { "id": 806, "name": "Salt" },
+        { "id": 807, "name": "Pepper" }
+      ],
+      "instructions": [
+        "Slice tomatoes and mozzarella.",
+        "Arrange on a plate, alternating between tomato and mozzarella slices.",
+        "Sprinkle basil leaves, drizzle olive oil and balsamic vinegar, and season with salt and pepper."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Tacos",
+      "ingredients": [
+        { "id": 901, "name": "Tortillas" },
+        { "id": 902, "name": "Ground Beef" },
+        { "id": 903, "name": "Cheddar Cheese" },
+        { "id": 904, "name": "Lettuce" },
+        { "id": 905, "name": "Tomato" },
+        { "id": 906, "name": "Sour Cream" },
+        { "id": 907, "name": "Taco Seasoning" }
+      ],
+      "instructions": [
+        "Cook ground beef with taco seasoning until browned.",
+        "Place beef in tortillas and top with cheese, lettuce, tomato, and sour cream."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Smoothie Bowl",
+      "ingredients": [
+        { "id": 1001, "name": "Banana" },
+        { "id": 1002, "name": "Frozen Berries" },
+        { "id": 1003, "name": "Yogurt" },
+        { "id": 1004, "name": "Honey" },
+        { "id": 1005, "name": "Granola" },
+        { "id": 1006, "name": "Chia Seeds" }
+      ],
+      "instructions": [
+        "Blend banana, berries, and yogurt until smooth.",
+        "Pour into a bowl and top with honey, granola, and chia seeds."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Vegetable Stir Fry",
+      "ingredients": [
+        { "id": 1101, "name": "Bell Pepper" },
+        { "id": 1102, "name": "Broccoli" },
+        { "id": 1103, "name": "Carrot" },
+        { "id": 1104, "name": "Soy Sauce" },
+        { "id": 1105, "name": "Garlic" },
+        { "id": 1106, "name": "Olive Oil" }
+      ],
+      "instructions": [
+        "Heat olive oil in a wok over medium-high heat.",
+        "Add garlic and sauté for 1 minute.",
+        "Add chopped vegetables and stir-fry for 5-7 minutes.",
+        "Add soy sauce and cook for an additional 2 minutes before serving."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Classic French Toast",
+      "ingredients": [
+        { "id": 1201, "name": "Bread" },
+        { "id": 1202, "name": "Eggs" },
+        { "id": 1203, "name": "Milk" },
+        { "id": 1204, "name": "Cinnamon" },
+        { "id": 1205, "name": "Butter" },
+        { "id": 1206, "name": "Maple Syrup" }
+      ],
+      "instructions": [
+        "Whisk together eggs, milk, and cinnamon in a bowl.",
+        "Dip each slice of bread in the egg mixture.",
+        "Melt butter in a skillet over medium heat and cook bread until golden on both sides.",
+        "Serve with maple syrup."
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Shrimp Scampi",
+      "ingredients": [
+        { "id": 1301, "name": "Shrimp" },
+        { "id": 1302, "name": "Garlic" },
+        { "id": 1303, "name": "Butter" },
+        { "id": 1304, "name": "Lemon Juice" },
+        { "id": 1305, "name": "Parsley" },
+        { "id": 1306, "name": "Olive Oil" }
+      ],
+      "instructions": [
+        "Heat olive oil and butter in a pan over medium heat.",
+        "Add garlic and sauté until fragrant.",
+        "Add shrimp and cook until pink, about 3-4 minutes.",
+        "Pour in lemon juice and sprinkle with parsley before serving."
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Beef Stew",
+      "ingredients": [
+        { "id": 1401, "name": "Beef Cubes" },
+        { "id": 1402, "name": "Potato" },
+        { "id": 1403, "name": "Carrot" },
+        { "id": 1404, "name": "Onion" },
+        { "id": 1405, "name": "Beef Broth" },
+        { "id": 1406, "name": "Thyme" }
+      ],
+      "instructions": [
+        "Brown beef cubes in a large pot.",
+        "Add onion, carrot, and potato and cook until softened.",
+        "Pour in beef broth and thyme, then simmer for 1-2 hours until beef is tender."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Egg Fried Rice",
+      "ingredients": [
+        { "id": 1501, "name": "Cooked Rice" },
+        { "id": 1502, "name": "Eggs" },
+        { "id": 1503, "name": "Green Onions" },
+        { "id": 1504, "name": "Soy Sauce" },
+        { "id": 1505, "name": "Peas" },
+        { "id": 1506, "name": "Carrot" }
+      ],
+      "instructions": [
+        "Scramble eggs in a pan and set aside.",
+        "In the same pan, add cooked rice, peas, and carrots.",
+        "Stir in soy sauce and scrambled eggs, then garnish with green onions."
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Macaroni and Cheese",
+      "ingredients": [
+        { "id": 1601, "name": "Macaroni" },
+        { "id": 1602, "name": "Cheddar Cheese" },
+        { "id": 1603, "name": "Milk" },
+        { "id": 1604, "name": "Butter" },
+        { "id": 1605, "name": "Flour" }
+      ],
+      "instructions": [
+        "Cook macaroni according to package directions.",
+        "In a saucepan, melt butter and whisk in flour.",
+        "Gradually add milk and cheese, stirring until smooth.",
+        "Mix cheese sauce with macaroni and serve warm."
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Greek Salad",
+      "ingredients": [
+        { "id": 1701, "name": "Cucumber" },
+        { "id": 1702, "name": "Tomato" },
+        { "id": 1703, "name": "Feta Cheese" },
+        { "id": 1704, "name": "Olives" },
+        { "id": 1705, "name": "Red Onion" },
+        { "id": 1706, "name": "Olive Oil" },
+        { "id": 1707, "name": "Oregano" }
+      ],
+      "instructions": [
+        "Chop cucumber, tomato, and red onion.",
+        "Combine with olives and feta cheese in a bowl.",
+        "Drizzle olive oil and sprinkle oregano before serving."
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Garlic Butter Shrimp",
+      "ingredients": [
+        { "id": 1801, "name": "Shrimp" },
+        { "id": 1802, "name": "Garlic" },
+        { "id": 1803, "name": "Butter" },
+        { "id": 1804, "name": "Parsley" },
+        { "id": 1805, "name": "Lemon Juice" }
+      ],
+      "instructions": [
+        "Melt butter in a skillet and add minced garlic.",
+        "Add shrimp and cook until pink, about 3 minutes.",
+        "Stir in lemon juice and sprinkle with parsley before serving."
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Chicken Alfredo",
+      "ingredients": [
+        { "id": 1901, "name": "Fettuccine" },
+        { "id": 1902, "name": "Chicken Breast" },
+        { "id": 1903, "name": "Heavy Cream" },
+        { "id": 1904, "name": "Parmesan Cheese" },
+        { "id": 1905, "name": "Garlic" },
+        { "id": 1906, "name": "Butter" }
+      ],
+      "instructions": [
+        "Cook fettuccine according to package instructions.",
+        "In a pan, cook sliced chicken until browned.",
+        "Add butter, garlic, cream, and Parmesan to make the sauce.",
+        "Mix sauce with fettuccine and top with chicken before serving."
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Mango Salsa",
+      "ingredients": [
+        { "id": 2001, "name": "Mango" },
+        { "id": 2002, "name": "Red Onion" },
+        { "id": 2003, "name": "Bell Pepper" },
+        { "id": 2004, "name": "Cilantro" },
+        { "id": 2005, "name": "Lime Juice" },
+        { "id": 2006, "name": "Salt" }
+      ],
+      "instructions": [
+        "Dice mango, red onion, and bell pepper.",
+        "Mix in a bowl with cilantro, lime juice, and salt.",
+        "Serve as a topping or dip."
+      ]
+    }
+  ]
+}
