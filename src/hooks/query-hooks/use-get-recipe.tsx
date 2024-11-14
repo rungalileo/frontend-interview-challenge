@@ -1,20 +1,9 @@
 import { Recipe } from "@/types/types";
-import { useQuery } from "@tanstack/react-query"
 
+// Implement the useGetRecipe hook that fetches a single recipe by id
 export default function useGetRecipe(id: number | string | undefined) {
 
   async function fetchRecipe(): Promise<Recipe> {
-    return await fetch(`/api/get-recipe?id=${id}`)
-      .then((response) => response.json())
-      .then((data) => data.data)
-      .catch((error) => {
-        throw new Error(error.message)
-      });
+    await fetch(`/api/get-recipe?id=${id}`)
   }
-
-  return useQuery({
-    queryKey: ['recipe'],
-    queryFn: fetchRecipe,
-    enabled: id != null,
-  })
 }
