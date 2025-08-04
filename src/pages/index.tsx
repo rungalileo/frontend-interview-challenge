@@ -29,7 +29,7 @@ const Home = () => {
       <Title>Recipe Finder</Title>
       <ScrollArea h={600} mt="xl">
         <Stack mt="xl">
-          {recipes?.map((recipe) => (
+          {recipes.map((recipe) => (
             <Card key={recipe.id} withBorder>
               {recipe.name}
             </Card>
